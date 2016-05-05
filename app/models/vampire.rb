@@ -1,5 +1,5 @@
 class Vampire < ActiveRecord::Base
-  validates :name, presence:true
+  # validates :name, presence:true
   has_many :medical_problems
   has_one :cicada
 

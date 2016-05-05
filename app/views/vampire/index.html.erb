@@ -1,0 +1,11 @@
+<h1>YOU ARE A VAMPIRE? YOU HAVE A HEALTH PROBLEM? CICADAS MAY BE THE ANSWER!!!! (IT IS)</h1>
+
+<%= image_tag "cicada.jpg" %>
+
+<h3> OUR FANTASTIC CLIENTS: </h3>
+
+<% @vampires.each do |v| %>
+  <h2>Vampire (WE TAKE MEDICAL CONFIDENTIALITY SERIOUS SO NO NAME BUT WILL SHOW ZODIAC SIGN): <%= v.zodiac_sign %></h2>
+    <h2>Medical Problem: <%= v.medical_problems.first.symptoms %></h2>
+  <h2>Therapy Cicada: <%= v.cicada.name %> also known as <%= v.cicada.cutesy_nickname %></h2>
+<% end %>

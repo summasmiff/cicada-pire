@@ -1,17 +1,19 @@
 Rails.application.routes.draw do
-  get 'medical_problem/new'
+  root 'vampire#index'
 
-  get 'cicadas/new'
+  # get 'medical_problem/new', controller: 'medical_problem#new'
 
-  get 'cicadas/fetch_medicine'
+  # get 'cicadas/new', controller: 'cicadas#new'
 
-  get 'cicadas/buzz'
+  # get 'cicadas/fetch_medicine', controller: 'cicadas#fetch_medicine'
 
-  get 'vampire/new'
+  # get 'cicadas/buzz', controller: 'cicadas#buzz'
 
-  get 'vampire/:id/heal'
+  # get 'vampire/new', controller: 'vampire#new'
 
-  get 'vampire/:id/stake'
+  # post 'vampire/:id/heal', as: 'vampire#heal'
+
+  # get 'vampire/:id/stake', controller: 'vampire#stake'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
