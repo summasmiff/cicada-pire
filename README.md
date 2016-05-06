@@ -1,7 +1,7 @@
 # CicadaPire
 ### Fix your extremely bad poops
 
-Built as part of the [Surrealist Rails App Workshop](http://www.pineconedoesthings.com/surreal.html) from RailsConf 2016. Get with another person. Each of you independently finds a random Wikipedia page. Write a Rails back end on your own based on that topic. No views, just controllers, models, routes, migrations, seeds. After 30 minutes, shove your code up to GitHub and give the other person access to the repo. You each pull down the other's repo and add a UI to their back end. After another 30 minutes, demo the front end you put on their app.
+Built as part of the [Surrealist Rails App Workshop](http://www.pineconedoesthings.com/surreal.html) from RailsConf 2016. Get with another person. Each of you independently finds a random Wikipedia page. Write a Rails back end on your own based on that topic. Do whatever it takes to get it up and running! After 30 minutes, shove your code up to GitHub and give the other person access to the repo. You each pull down the other's repo and add a UI to their back end. After another 30 minutes, demo the front end you put on their app.
 
 Thanks to [Logan McDonald](https://github.com/loganmeetsworld) for the front end and styling!
 
